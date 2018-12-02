@@ -1,0 +1,35 @@
+
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
+@import url('https://fonts.googleapis.com/css?family=Over+the+Rainbow');
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker');
+@import url('https://fonts.googleapis.com/css?family=The+Girl+Next+Door');
+body {
+	background-color:#3333ff;
+}
+h1, h2, h3, h4, h5 {
+	color:#00ccff;
+	font-family:'Orbitron';
+}
+p, ul {
+	color:#ffff00;
+	font-family:'Over the Rainbow';
+}
+table {
+	color:#ff66cc;
+	font-family:'Permanent Marker';
+	border-collapse: collapse;
+}
+td, th {
+	border: 1px solid #ddd;
+}
+th, tr {
+	color:#000000;
+	font-family:'The Girl Next Door';
+}
+th {
+	text-align: center;
+	background-color:#99cc00;
+}
+table tr:nth-child(even){background-color:#cccc00;}
+table tr:nth-child(odd){background-color:#ffff00;}
+table tr:hover {background-color:#996600;}

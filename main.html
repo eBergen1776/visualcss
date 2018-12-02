@@ -1,0 +1,193 @@
+ <!-- THIS IS THE CONTENT OF THE MAIN DIV (AKA THE PALETTE).  IT ALSO HAS THE INVISIBLE HELP MODAL/OVERLAY CONTENT -->
+    <!-- The Modal -->
+            <div id="myModal" class="modal">
+                <!-- Modal content -->
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1 class="noColor" style="text-align:center">Welcome to Visual CSS Help &amp; Info!</h1>
+                    <p class="noColor">Hover over the app-map for details &amp; flow-tips when designing themes, generating them as CSS files, and applying them to new web projects.</p>
+                    <img src="images/AppMap600.png" usemap="app-map";/>
+                    <map name="app-map">
+                        <area style="cursor:pointer" alt="colorwidget"      title="color widget"            id="colorwidget" 	   coords="149,182,50,84"   shape="rect">
+                        <area style="cursor:pointer" alt="VisualCSSheader"  title="title"                   id="title"             coords="574,75,49,49"    shape="rect">
+                        <area style="cursor:pointer" alt="elementselector"  title="element selector"        id="elementselector"   coords="51,192,150,293"  shape="rect">
+                        <area style="cursor:pointer" alt="fontwidget"       title="font widget"             id="fontwidget"        coords="51,300,148,341"  shape="rect">
+                        <area style="cursor:pointer" alt="help&amp;info"    title="help &amp; info"         id="helpinfo"          coords="51,349,150,390"  shape="rect">
+                        <area style="cursor:pointer" alt="palette" 			title="palette" 			    id="palette"	       coords="163,84,569,304"  shape="rect">
+                        <area style="cursor:pointer" alt="downloadcssfile"  title="download css file"       id="downloadcssfile"   coords="257,313,417,330" shape="rect">
+                        <area style="cursor:pointer" alt="copyrightandlinks"title="copyright &amp; links"   id="copyrightandlinks" coords="49,400,575,417"  shape="rect">
+                    </map>
+                    <div id="applonginfo">&nbsp;</div>
+                </div>
+            </div>
+    <!-- Begin Main Palette Content -->
+      <h3>This is your Palette - Use this space to mix, preview and download your own CSS themes:</h3>
+        <p>Try these steps:
+        	<ul>
+        		<li><strong><em>INSTANTLY PREVIEW:</em></strong> Use the widgets in the left column to combine colors, fonts and elements and judge what works together visually.</li>
+        		<li><strong><em>DISPLAY SPECIFICS:</em></strong> You may want to just Copy-Paste one quick CSS info directly from the palette's display table</li>
+        		<li><strong><em>GENERATE CSS FILE:</em></strong> Like what you've mixed?  Click the big button at the bottom to download a complete CSS file &amp; drop it in your own web project!</li>
+        	</ul>
+<table class= "bigbottommargin">
+  <caption>Programming Information on Colors and Fonts Now Showing on this Palette</caption>
+  <tr>
+    <th>Element/Attribute</th>
+	<th>Font</th>
+    <th>Color Name</th>
+    <th>Color Hex</th>
+    <th>Color RGB</th>
+    <th>Color HSL</th>	
+  </tr>
+  <tr>
+    <td>Page Background</td>
+    <td>Not Applicable</td>
+    <td id="colornamDIVpageBackground">Gray</td>
+    <td id="colorhexDIVpageBackground">#808080</td>
+    <td id="colorrgbDIVpageBackground">rgb(255, 255, 255)</td>
+    <td id="colorhslDIVpageBackground">hsl(0, 0%, 100%)</td>	
+  </tr>
+  <tr>
+    <td>&lt;H1&gt; to &lt;H6&gt;</td>
+    <td id="fontDIVh3">Lucida Sans</td>
+    <td id="colornamDIVh3">Black</td>
+    <td id="colorhexDIVh3">#000000</td>
+    <td id="colorrgbDIVh3">rgb(0, 0, 0)</td>
+	<td id="colorhslDIVh3">hsl(0, 0%, 0%)</td>
+  </tr>
+  <tr>
+    <td>&lt;P&gt; &amp; &lt;UL&gt;</td>
+    <td id="fontDIVp">Lucida Sans</td>
+    <td id="colornamDIVp">Black</td>
+    <td id="colorhexDIVp">#000000</td>
+    <td id="colorrgbDIVp">rgb(0, 0, 0)</td>
+	<td id="colorhslDIVp">hsl(0, 0%, 0%)</td>
+  </tr>
+  <tr>
+    <td>&lt;Caption&gt;</td>
+    <td id="fontDIVcaption">Lucida Sans</td>
+    <td id="colornamDIVcaption">Black</td>
+    <td id="colorhexDIVcaption">#000000</td>
+    <td id="colorrgbDIVcaption">rgb(0, 0, 0)</td>
+	<td id="colorhslDIVcaption">hsl(0, 0%, 0%)</td>
+  </tr>
+  <tr>
+    <td>&lt;TH&gt; Background</td>
+    <td>Not Applicable</td>
+    <td id="colornamDIVthBg">Silver</td>
+    <td id="colorhexDIVthBg">#c0c0c0</td>
+    <td id="colorrgbDIVthBg">rgb(192, 192, 192)</td>
+	<td id="colorhslDIVthBg">hsl(0, 0%, 75%)</td>
+  </tr>    
+  <tr>
+    <td>&lt;TH&gt; & &lt;TR&gt;</td>
+    <td id="fontDIVthText">Lucida Sans</td>
+    <td id="colornamDIVthText">Black</td>
+    <td id="colorhexDIVthText">#000000</td>
+    <td id="colorrgbDIVthText">rgb(0, 0, 0)</td>
+	<td id="colorhslDIVthText">hsl(0, 0%, 0%)</td>
+  </tr> 
+  <tr>
+    <td>&lt;TR&gt; Even Background</td>
+    <td>Not Applicable</td>
+    <td id="colornamDIVtrEven">Not Named</td>
+    <td id="colorhexDIVtrEven">#f2f2f2</td>
+    <td id="colorrgbDIVtrEven">rgb(242, 242, 242)</td>
+    <td id="colorhslDIVtrEven">hsl(0, 0%, 95%)</td>
+  </tr>     
+  <tr>
+    <td>&lt;TR&gt; Odd Background</td>
+    <td>Not Applicable</td>
+    <td id="colornamDIVtrOdd">White</td>
+    <td id="colorhexDIVtrOdd">#ffffff</td>
+    <td id="colorrgbDIVtrOdd">rgb(255, 255, 255)</td>
+    <td id="colorhslDIVtrOdd">hsl(0, 0%, 100%)</td>
+  </tr>  
+  <tr>
+    <td>&lt;TR&gt; Hover Background</td>
+    <td>Not Applicable</td>
+    <td id="colornamDIVtrHover">Not Named</td>
+    <td id="colorhexDIVtrHover">#dddddd</td>
+    <td id="colorrgbDIVtrHover">rgb(221, 221, 221)</td>
+    <td id="colorhslDIVtrHover">hsl(0, 0%, 87%)</td>
+  </tr>
+</table>
+<div class="stretchandcenter">
+    <div id="downloadpanel" class="downloadpanel" onClick="downloadStylesheetTest();"><h3 class="noMargin">Download this theme as a CSS file.</h3></div>
+</div>
+<script>
+    $(document).ready(function(){ 
+        /*INITIALIZING DOM MANIPULATIONS:  MODAL EVENT ATTACHMENTS */    
+        var modal = document.getElementById('myModal');
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // Turn circular helppanel into a button that opens the modal
+        var btn = document.getElementById('helppanel');
+
+        // When the user clicks the button, open the modal 
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+        
+        var invitation = "<h4 class='noColor'>ROLLOVER THE MAP!</h4>";
+        
+        var colorwidget = "<h4 class='noColor'>COLOR WIDGET</h4><p class='noColor'> The color widget changes the color of checked items on the element selector in 3 ways: The roll-over hexagon is the most instant and convenient way to visualize 127 basic hues. The &ldquo;system picker&rdquo; is your computer&rsquo;s built-in color dialogue and provides fine shades of control. The input box will take any of the 140 officially named HTML colors or the 17 million hex notations. A quick tip -- use the rollover-hexagon for a quick hue, then tint/shade it the System Picker! In this release, the tinted color of the various control &ldquo;panels&rdquo; is automatically adjusted in a process called &ldquo;interpolation,&rdquo; using the page-background and a fixed tint as a basis.</p>";
+            
+        var title = "<h4 class='noColor'>TITLE PANEL</h4><p class='noColor'>This and all the panels are not part of the palette, but are still colored automatically by 'interpolation' with the user&rsquo;s choice of page color (see Color Widget). This and all panel heading fonts are also styled along with the sample Header that is specifically displayed on the Palette.</p>";            
+        
+        var elementselector = "<h4 class='noColor'>ELEMENT SELECTOR</h4><p class='noColor'> Elements listed on the selector mirror those on the palette exactly. Checked elements are changed by the Color or the Font widget as applicable: Some elements are listed twice so that all aspects can be controlled individually. A quick quality tip -- Style your way down the list: A shotgun strategy of multiple choices at once can lead to mistakes and there is no &ldquo;go back&rdquo; feature in this release, so take your time! A page reload resets the application to its default settings.</p>"; 
+        
+        var fontwidget = "<h4 class='noColor'>FONT WIDGET</h4><p class='noColor'>Any element from the element selector which indicates a font, may have its font changed by this drop-down of over 225 Google-Fonts. These are pulled on the fly from the web (free Google Fonts), and those used to change the palette area, will have similar code added to the CSS File to pull-in that same font when applied to other web projects.</p>";
+
+        var helpinfo = "<h4 class='noColor'>SAMPLES, HELP & INFO</h4><p class='noColor'>This panel contains reserved space for a drop-down of pre-generated styling themes in a future release, as well as the help &amp; Info button you pressed to view this page.</p>";
+        
+        var palette = "<h4 class='noColor'>PALETTE AREA</h4><p class='noColor'>The palette is the large middle zone and contains matching elements to each type listed in the <strong>element selector</strong> control. Palette elements on the page are in the same top-to-bottom order as listed in the element selector. The palette will instantly preview the effects of any changes applied from the left-side column of controls. The table element (not pictured) is both for visual styling preview and populated with useful information about the elements displayed. The large button on the bottom instantly generates and downloads a CSS File to match whatever theme is currently displayed on the palette area (see download).</p>";
+        
+        var downloadcssfile = "<h4 class='noColor'>DOWNLOAD CSS FILE</h4><p class='noColor'>Perhaps the most important piece of the application, this button generates a re-usable output (A .CSS file, or Cascading Style Sheet), of the styling theme as designed on the palette.  Save it to your own web project.  Import it to your HTML files and it will recreate your theme.</p>";
+        
+        var copyrightandlinks = "<h4 class='noColor'>COPYRIGHT &amp; CODE</h4><p class='noColor'>This panel contains copyright and application licensing as well as a link to the open-source code repository should anyone wish to make use of what they find here. Team Carreker hopes you like what you see enough to fork us using the provided link!</p>";
+        
+        $('#colorwidget').mouseover(function() {
+            showContent(colorwidget);
+        });
+        $('#title').mouseover(function() {
+            showContent(title);
+        });        
+        $('#elementselector').mouseover(function() {
+            showContent(elementselector);
+        });
+        $('#fontwidget').mouseover(function() {
+            showContent(fontwidget);
+        });
+        $('#helpinfo').mouseover(function() {
+            showContent(helpinfo);
+        });
+        $('#palette').mouseover(function() {
+            showContent(palette);
+        });
+        $('#downloadcssfile').mouseover(function() {
+            showContent(downloadcssfile);
+        });
+        $('#copyrightandlinks').mouseover(function() {
+            showContent(copyrightandlinks);
+        });        
+        showContent(invitation);        
+    });
+    
+    function showContent(content) {
+        $('#applonginfo').html(content);
+    }
+</script>
