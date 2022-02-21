@@ -1,4 +1,4 @@
-/* This SCRIPT (javascript) file by Team Carreker. This file contains all the original functions that wire together the different pieces of the app -- HTML's user-events (clicks and choices) with HTML content (displayed values onscreen) and CSS Styling (displayed colors and fonts) etc.  Their are several other .js script files (public libraries), notably jquery, which is fetched dynamically.  See especially w3color.js and various jquery.[user-extension].js such as jquery.fontselect.js */
+/* This SCRIPT (javascript) file by Ethan Bergen. This file contains all the original functions that wire together the different pieces of the app -- HTML's user-events (clicks and choices) with HTML content (displayed values onscreen) and CSS Styling (displayed colors and fonts) etc.  Their are several other .js script files (public libraries), notably jquery, which is fetched dynamically.  See especially w3color.js and various jquery.[user-extension].js such as jquery.fontselect.js */
 var colorhex = "#FF0000";
 var color = "#FF0000";
 var colorObj = w3color(color);
